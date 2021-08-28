@@ -1,0 +1,92 @@
+<html>
+	<head>
+		<title>Formulario de inscripción</title>
+	</head>
+	<body>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<form method="GET" action="">
+	<table border="0" width="60%" align="center">
+	<caption><b>FORMULARIO DE INSCRIPCIÓN</b></caption>
+		<tr>
+			<td width="100">Nombre</td>
+			<td width="20">:</td>
+			<td>
+			<input type="text" id="nombre" name="nombre" style="width: 100%"/>
+			</td>
+		</tr>
+		<tr>
+			<td>Apellidos</td>
+			<td>:</td>
+			<td><input type="text" id="apellidos" name="apellidos" style="width: 100%"/></td>
+		</tr>
+		<tr>
+			<td>Número de identificación</td>
+			<td>:</td>
+			<td><input type="text" id="identificacion" name="identificacion" style="width: 100%"/></td>
+		</tr>
+		<tr>
+			<td>Tipo de documento</td>
+			<td>:</td>
+			<td>
+				<select id="tipoide" name="tipoide" style="width: 100%">
+				<option value="0">Seleccione una opcion de la lista</option>
+				<option value="1">Cédula</option>
+				<option value="2">Tarjeta de identidad</option>
+				<option value="3">NUIP</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Municipio de expedición</td>
+			<td>:</td>
+			<td>
+				<select id="municipioexp" name="municipioexp" style="width: 100%">
+				<option value="0">Seleccione un municipio de la lista</option>
+				<option value="1">Quibdó</option>
+				<option value="2">Istmina</option>
+				<option value="3">Riosucio</option>
+				<option value="4">Condoto</option>
+				<option value="5">Bajo baudó</option>
+				</select>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Dedicación</td>
+			<td>:</td>
+			<td>
+			<input type="checkbox" id="ded_Est" name="ded_Est"/>Estudiante
+			<input type="checkbox" id="ded_Asal" name="ded_Asal"/>Asalariado
+			<input type="checkbox" id="ded_Ind" name="ded_Ind"/>Independiente
+			</td>
+			<tr>
+			<td>Observaciones</td>
+			<td>:</td>
+			<td>
+			<textarea id="observa" name="observa" style="width: 100%; height:80pt;"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td>Contraseña</td>
+			<td>:</td>
+			<td><input type="password" id="clave" name="clave" style="width: 100%"/></td>
+		</tr>
+		<tr>
+			<td>Adjuntar archivo</td>
+			<td>:</td>
+			<td><input type="file" id="archivo" name="archivo"/></td>
+		</tr>
+		<tr>
+			<td colspan="3" align="right">
+			<input type="reset" value="Resetear"/>
+			<input type="submit" value="Enviar"/>
+			</td>
+		</tr>
+		
+	</table>
+</form>
+	</body>
+</html>
